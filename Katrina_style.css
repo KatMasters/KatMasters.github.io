@@ -1,0 +1,21 @@
+body {
+  background-color: #FFE4E1;
+  margin: 3em;
+  margin-top: 1em;
+}
+
+#name{
+  color: #2E8B57;
+  font-family: Lucida, cursive;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+h2{
+  color: #008080;
+  font-family: Lucida, cursive;
+  font-size: 1.5em;
+  text-align: left;
+  letter-spacing: 1px;
+}
