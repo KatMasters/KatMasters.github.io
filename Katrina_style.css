@@ -1,15 +1,55 @@
 body {
-  background-color: #FFE4E1;
+  background-image: url("https://static.pexels.com/photos/20974/pexels-photo.jpg");
+  /*background-color: pink;*/
   margin: 3em;
   margin-top: 1em;
+}
+
+#img{
+  background-image: url("http://ocean.nationalgeographic.com/u/TvyamNb-BivtNwpvn7Sct0VFDulyAfA9wBcU0gVHVnqC5ghqXjggeitqtJ-1ZIZ1rmCgor42TXOteIQU/");
+  width: 600px;
+  height: 267px;
+  display: block;
+  margin: auto;
 }
 
 #name{
   color: #2E8B57;
   font-family: Lucida, cursive;
-  font-size: 3em;
+  font-size: 24px;
   text-align: center;
   letter-spacing: 1.5px;
+}
+
+/*Add a white backgroun color to the top navigation */
+
+.topnav{
+  background-color: white;
+  overflow: hidden;
+}
+
+/*Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #99004f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #809fff;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 h2{
